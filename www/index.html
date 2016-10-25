@@ -7,34 +7,58 @@
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-
+    
+    
+<!-- PAGE 1-->
 <div data-role="page" id="pageone">
   <div data-role="header">
     <h1>Welcome To My Homepage</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
+    <p>Welcome! Use the links below to navigate to the other pages.</p>
     <a href="#pagetwo">Go to Page Two</a>
+    <a href="#pagethree">Go to Page Two</a>
   </div>
 
-  <div data-role="footer">
-    <h1>Footer Text</h1>
+  <div data-role="footer" data-position="fixed">
+    <h1>Fixed Footer</h1>
   </div>
 </div>
+    
 
+<!-- PAGE 2-->
 <div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+    
+  <div data-role="main" class="ui-content">
+    <p>Welcome! Use the links below to navigate to the other pages.</p>
+    <a href="#pageone">Go to Page One</a>
+    <a href="#pagethree">Go to Page Two</a>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>Fixed Footer</h1>
+  </div>
+</div>
+    
+    
+<!-- PAGE 3-->
+<div data-role="page" id="pagethree">
   <div data-role="header">
     <h1>Welcome To My Homepage</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
+    <p>Welcome! Use the links below to navigate to the other pages.</p>
     <a href="#pageone">Go to Page One</a>
+    <a href="#pagetwo">Go to Page Two</a>
   </div>
 
-  <div data-role="footer">
-    <h1>Footer Text</h1>
+  <div data-role="footer" data-position="fixed">
+    <h1>Fixed Footer</h1>
   </div>
 </div>
 
